@@ -1,7 +1,7 @@
+<?php
 // --------------------------------------------------
 // File: seller_dashboard.php
 // --------------------------------------------------
-<?php
 require_once 'config.php';
 requireRole('seller');
 $pdo = getPDO();
