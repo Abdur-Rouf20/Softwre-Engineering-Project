@@ -14,7 +14,10 @@ define('DB_PASS', '');
 define('STRIPE_SECRET_KEY', 'sk_test_xxx');
 define('STRIPE_PUBLISHABLE_KEY', 'pk_test_xxx');
 
-session_start();
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
 
 function getPDO(){
     static $pdo = null;

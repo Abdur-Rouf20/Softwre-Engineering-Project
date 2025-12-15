@@ -149,3 +149,14 @@ a:hover {
   background: #f8d7da;
   color: #721c24;
 }
+.alert {
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.alert-success {
+    background: #d4edda;
+    border: 1px solid #b2dfbb;
+    color: #155724;
+}

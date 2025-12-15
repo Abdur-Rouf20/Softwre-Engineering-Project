@@ -1,6 +1,4 @@
-// --------------------------------------------------
-// File: seller_add_product.php
-// --------------------------------------------------
+
 <?php
 require_once 'config.php';
 requireRole('seller');
